@@ -4,9 +4,9 @@
 import 'dart:math';
 
 num func(int a, int b) {
-  return 2 * (pow(a, b)) / (a + b);
+  return 2 * ((pow(a, b)) / (a + b));
 }
 
 void main() {
-  print(func(2, 4));
+  print(func(2, 6));
 }
