@@ -2,10 +2,10 @@
 // the task condition is in the Readme file
 import 'dart:math';
 
-double func(int a, int b, int c) {
+num func(int a, int b, int c) {
   return 2 * pow(b, 2) / (a + pow(c, 2));
 }
 
 void main() {
-  print(func(1, 11, 3));
+  print(func(2, 4, 6));
 }
